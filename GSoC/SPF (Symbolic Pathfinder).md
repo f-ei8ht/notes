@@ -49,3 +49,4 @@ one trace one path through code
 in contrast with symbolic execution we start with symbolic values
 here Big X and BIG Y are symbolic values and the result of symbolic execution 
 on these symbolic values is a set of traces rather than one trace and this set of traces can be organized in the so called symbolic execution tree
+

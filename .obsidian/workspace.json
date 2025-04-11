@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "430676b69a59d0ec",
+        "id": "9d93e12a5da1a253",
         "type": "tabs",
         "children": [
           {
-            "id": "58e76e56331049ac",
+            "id": "af7a91fcb941cbe3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GSoC/SPF (Symbolic Pathfinder).md",
+                "file": "GSoC/Abstract.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "SPF (Symbolic Pathfinder)"
+              "title": "Abstract"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 200
   },
   "right": {
     "id": "d5ba3822431cd935",
@@ -192,26 +192,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "58e76e56331049ac",
+  "active": "af7a91fcb941cbe3",
   "lastOpenFiles": [
-    "GSoC/img/SymbolicExecution.png",
     "GSoC/SPF (Symbolic Pathfinder).md",
-    "GSoC/Off-Shelf-Solvers.md",
     "GSoC/GSoC.md",
-    "Frontend/HTML.md",
-    "Java/Basic.md",
+    "GSoC/Abstract.md",
+    "GSoC/Off-Shelf-Solvers.md",
+    "GSoC/img/SymbolicExecution.png",
     "GSoC/img/ConcreteExecution.png",
     "GSoC/img",
-    "Resources.md",
+    "DSA/DSA.md",
     "Java/Array.md",
+    "Java/Basic.md",
     "Misc/Misc.md",
     "DSA/Time and Space Complexity.md",
-    "DSA/DSA.md",
     "Java/img/operator-precedence.jpeg",
     "Java/Keywords.md",
+    "Resources.md",
     "README.md",
     "WhatToStudy.md",
     "TimeTable.md",
+    "Frontend/HTML.md",
     "CS Fundamentals/OOPS.md",
     "Android/Android.md",
     "Kotlin/Kotlin.md",
