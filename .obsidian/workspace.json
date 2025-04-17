@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GSoC/Abstract.md",
+                "file": "CP/platforms.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Abstract"
+              "title": "platforms"
             }
           }
         ]
@@ -194,15 +194,17 @@
   },
   "active": "8dd526b6b70f2b84",
   "lastOpenFiles": [
+    "Resources.md",
+    "CP/platforms.md",
+    "CP",
+    "GSoC/SPF (Symbolic Pathfinder).md",
     "GSoC/Abstract.md",
     "GSoC/Abstract.md",
     "GSoC/GSoC.md",
-    "Resources.md",
     "Java/OOPS.md",
     "Java/Basic.md",
     "Java/Array.md",
     "WhatToStudy.md",
-    "GSoC/SPF (Symbolic Pathfinder).md",
     "GSoC/Off-Shelf-Solvers.md",
     "GSoC/img/SymbolicExecution.png",
     "GSoC/img/ConcreteExecution.png",
@@ -233,9 +235,7 @@
     "Haskell",
     "().md",
     "Kotlin.java.md",
-    "Frontend/How The Internet Works.md",
     "GO",
-    "Kotlin",
     "Java/img/identifiers_valid_invalid.png",
     "Java/img/datatypes.png",
     "Topics/Java/img/identifiers_valid_invalid.png",
