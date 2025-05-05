@@ -11,10 +11,24 @@
             "id": "51190d7a95a95ddf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Frontend/html.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "html"
             }
           }
         ]
@@ -178,8 +192,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "dababeeb9cc7b9e6",
+  "active": "51190d7a95a95ddf",
   "lastOpenFiles": [
+    "README.md",
+    "Frontend/html.md",
+    "Frontend/What to learn.md",
+    "Frontend/how does websites work.md",
     "Frontend/How Websites Work.md",
     "Frontend/HTML.md",
     "Resources.md",
@@ -204,16 +222,13 @@
     "DSA/Time and Space Complexity.md",
     "Java/img/operator-precedence.jpeg",
     "Java/Keywords.md",
-    "README.md",
     "TimeTable.md",
     "CS Fundamentals/OOPS.md",
     "Android/Android.md",
     "Kotlin/Kotlin.md",
     "GO/Go.md",
     "Misc",
-    "Haskell/Haskell.md",
     "GSoC",
-    "Low Level/Low Level Stuff.md",
     "DSA/img/graph.png",
     "DSA/img/graph",
     "DSA/img/big-o-cheat-sheet-poster.png",
@@ -221,7 +236,6 @@
     "DSA/Untitled.canvas",
     "Low Level",
     "GO",
-    "().md",
     "Java/img/identifiers_valid_invalid.png",
     "Java/img/datatypes.png",
     "Topics/Java/img/identifiers_valid_invalid.png",
