@@ -67,3 +67,8 @@ To reiterate, **arguments are the actual values** that go into the function, s
 
 ---
 
+# Relative vs Absolute url
+
+Absolute url are the full path to a resource with the protocols (http/https)
+
+Relative url within a web page with no protocol

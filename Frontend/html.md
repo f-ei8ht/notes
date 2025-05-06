@@ -114,4 +114,61 @@ no matter how much white space you use it will be rendered as one only
 never mismatch tag while nesting
 
 ### Anchor tag
-<a> tag is used to define a hyperlink, connects or links one page to another
+`<a>` tag is used to define a hyperlink, connects or links one page to another
+attributes:
+href - hypertext reference
+
+```html
+<a href="obisidian.md">Visit</a>
+```
+download - suggest to download when clicked
+rel - relation between the current page and target page
+tabindex - control tab order when using keyboard
+accesskey - using keyboard shortcut
+aria-* label, hidden 
+mailto:
+tel:
+
+Always use quotes for differentiating attributes if one then no problem if more than one a lot of problem
+
+[Character Entity Reference Chart - W3cubTools](https://tools.w3cub.com/html-entities)
+&trade;
+
+## Image tag
+```html
+<p>This is img tag demo</p>
+
+    <img
+
+      src="/html/5247889.jpg"
+
+      alt="Vegeta"
+
+      title="Vegeta"
+
+      width="100%"
+
+      height="auto"
+
+      usemap="#map"
+
+      loading="lazy"
+
+    />
+
+    <map name="map"
+
+      ><area
+
+        shape="rect"
+
+        coords="0,0,100,500"
+
+        href="https://f-8.me"
+
+        alt="Website"
+
+    /></map>
+```
+
+what i learned is you can add a map to image to create it a link with area for shape like circle rectangle poly
