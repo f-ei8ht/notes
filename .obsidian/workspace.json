@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4985cf2f421378b3",
+        "id": "ef6f6b841d67b490",
         "type": "tabs",
         "children": [
           {
-            "id": "51190d7a95a95ddf",
+            "id": "763e69ff0fb0991d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/html.md",
+                "file": "Rust/Rust.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "html"
+              "title": "Rust"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d5ba3822431cd935",
@@ -192,11 +193,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "51190d7a95a95ddf",
+  "active": "763e69ff0fb0991d",
   "lastOpenFiles": [
-    "Misc/Misc.md",
-    "Frontend/html.md",
+    "Pasted image 20250506174927.png",
+    "CP/platforms.md",
     "Rust/Rust.md",
+    "Frontend/html.md",
+    "Misc/Misc.md",
     "Rust.md",
     "Rust",
     "README.md",
@@ -205,7 +208,6 @@
     "Frontend/How Websites Work.md",
     "Frontend/HTML.md",
     "Resources.md",
-    "CP/platforms.md",
     "HFT",
     "CP",
     "GSoC/SPF (Symbolic Pathfinder).md",
@@ -226,7 +228,6 @@
     "Java/Keywords.md",
     "TimeTable.md",
     "CS Fundamentals/OOPS.md",
-    "Android/Android.md",
     "Misc",
     "GSoC",
     "DSA/img/graph.png",
