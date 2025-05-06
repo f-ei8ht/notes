@@ -137,38 +137,209 @@ Always use quotes for differentiating attributes if one then no problem if more 
 ## Image tag
 ```html
 <p>This is img tag demo</p>
-
     <img
-
       src="/html/5247889.jpg"
-
       alt="Vegeta"
-
       title="Vegeta"
-
       width="100%"
-
       height="auto"
-
       usemap="#map"
-
       loading="lazy"
-
     />
-
-    <map name="map"
-
-      ><area
-
+    <map name="map">
+	    <area
         shape="rect"
-
         coords="0,0,100,500"
-
         href="https://f-8.me"
-
         alt="Website"
-
-    /></map>
+	     />
+    </map>
 ```
 
 what i learned is you can add a map to image to create it a link with area for shape like circle rectangle poly
+
+Void elements are those that do not have closing tag they are also called empty elements
+```html
+<hr/>
+<area/>
+<br/>
+<img/>
+<input/>
+<meta/>
+```
+
+## picture tag
+
+the picture element contains zero ore more source elements and one img element to offer alternative versions of image for different display/devices scenarios
+
+```html
+<picture>
+      <source srcset="/html/5247889.jpg" />
+      <img src="/html/5247889.jpg" alt="Vegeta" />
+</picture>
+```
+
+figure tag can be used to write the image caption using figcaption
+
+## HTML lists
+
+ordered and unordered 
+
+specific order in ordered list like numbers alphabets and style = list-type:
+also type attribute in ordered list and start will start from what you specify
+
+nested list inlcuded
+```html
+   <p>List</p>
+
+    <strong>ordered</strong>
+
+    <ol style="list-style: lower-alpha">
+
+      <li>item 1</li>
+
+      <li>item 2</li>
+
+      <li>item 3</li>
+
+      <li>item 3</li>
+
+    </ol>
+
+    <ol style="list-style: lower-roman">
+
+      <li>item 1</li>
+
+      <li>item 2</li>
+
+      <li>item 3</li>
+
+      <li>item 3</li>
+
+    </ol>
+
+    <ol style="list-style: decimal">
+
+      <li>item 1</li>
+
+      <li>item 2</li>
+
+      <li>item 3</li>
+
+      <li>item 3</li>
+
+    </ol>
+
+    <ol type="A">
+
+      <li>item 1</li>
+
+      <li>item 2</li>
+
+      <li>item 3</li>
+
+      <li>item 3</li>
+
+    </ol>
+
+    <strong>unordered</strong>
+
+    <ul style="list-style: square">
+
+      <li>item 1</li>
+
+      <li>item 2</li>
+
+      <li>item 3</li>
+
+      <li>item 4</li>
+
+    </ul>
+
+    <ul style="list-style: circle">
+
+      <li>item 1</li>
+
+      <li>item 2</li>
+
+      <li>item 3</li>
+
+      <li>item 4</li>
+
+    </ul>
+
+    <ul style="list-style: disc">
+
+      <li>item 1</li>
+
+      <li>item 2</li>
+
+      <li>item 3</li>
+
+      <li>item 4</li>
+
+    </ul>
+
+    <hr />
+
+    <p>nested list</p>
+
+    <ul>
+
+      <li>
+
+        Fruit
+
+        <ol type="1">
+
+          <li>Mango</li>
+
+          <li>
+
+            Apple
+
+            <ul>
+
+              <li>Green</li>
+
+              <li>Red</li>
+
+            </ul>
+
+          </li>
+
+          <li>Pears</li>
+
+        </ol>
+
+      </li>
+
+      <li>vegetable</li>
+
+      <li>Meat</li>
+
+    </ul>
+
+    <hr />
+
+    <ul style="list-style: none; display: flex; gap: 15px">
+
+      <li>home</li>
+
+      <li>about</li>
+
+      <li>service</li>
+
+      <li>contact</li>
+
+    </ul>
+```
+
+## HTML TABLES
+
+table tag - defines tables => use row and column to maintain data
+tbody - groups the main content of an html table
+thead - header title
+th - header cell within a table 
+td - data cell with a table
+tr  - define a row

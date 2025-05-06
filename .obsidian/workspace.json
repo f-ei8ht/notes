@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/html.md",
+                "file": "Rust/Rust.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "html"
+              "title": "Rust"
             }
           }
         ]
@@ -194,13 +194,13 @@
   },
   "active": "51190d7a95a95ddf",
   "lastOpenFiles": [
-    "Misc/Misc.md",
     "Frontend/html.md",
+    "Frontend/What to learn.md",
+    "Misc/Misc.md",
     "Rust/Rust.md",
     "Rust.md",
     "Rust",
     "README.md",
-    "Frontend/What to learn.md",
     "Frontend/how does websites work.md",
     "Frontend/How Websites Work.md",
     "Frontend/HTML.md",
