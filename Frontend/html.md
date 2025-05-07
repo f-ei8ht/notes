@@ -343,3 +343,354 @@ thead - header title
 th - header cell within a table 
 td - data cell with a table
 tr  - define a row
+rowspan
+colspan
+
+```html
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tables</title>
+
+    <style>
+
+      table,
+
+      tr,
+
+      td,
+
+      th {
+
+        border: 2px solid black;
+
+        border-collapse: collapse;
+
+        padding: 10px;
+
+        text-align: center;
+
+      }
+
+      th {
+
+        font-size: x-large;
+
+      }
+
+      tr,
+
+      td {
+
+        font-size: large;
+
+      }
+
+      .yellow {
+
+        background: rgb(255, 255, 174);
+
+      }
+
+      .green {
+
+        background: rgb(180, 255, 180);
+
+      }
+
+      .blue {
+
+        background: rgb(176, 235, 255);
+
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>Tables in html</h1>
+
+    <hr />
+
+    <br />
+
+    <table>
+
+      <thead>
+
+        <tr>
+
+          <th colspan="7">TIME TABLE</th>
+
+        </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr style="font-weight: bold">
+
+          <td rowspan="7">Hours</td>
+
+          <td>Monday</td>
+
+          <td>Tuesday</td>
+
+          <td>Wednesday</td>
+
+          <td>Thursday</td>
+
+          <td>Friday</td>
+
+          <td>Saturday</td>
+
+        </tr>
+
+        <tr>
+
+          <td>Science</td>
+
+          <td>Science</td>
+
+          <td>Science</td>
+
+          <td>Science</td>
+
+          <td>Science</td>
+
+          <td>Science</td>
+
+        </tr>
+
+        <tr>
+
+          <td>Maths</td>
+
+          <td>Maths</td>
+
+          <td>Maths</td>
+
+          <td>Maths</td>
+
+          <td>Maths</td>
+
+          <td>Maths</td>
+
+        </tr>
+
+        <tr style="font-weight: bold">
+
+          <td colspan="6">Lunch</td>
+
+        </tr>
+
+        <tr>
+
+          <td>English</td>
+
+          <td>English</td>
+
+          <td>English</td>
+
+          <td>English</td>
+
+          <td>English</td>
+
+          <td rowspan="2">Games</td>
+
+        </tr>
+
+        <tr>
+
+          <td>Computer</td>
+
+          <td>Computer</td>
+
+          <td>Computer</td>
+
+          <td>Computer</td>
+
+          <td>Computer</td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+    <br />
+
+    <hr />
+
+    <h1>Another Table</h1>
+
+    <br />
+
+    <table>
+
+      <tr>
+
+        <th rowspan="3">Day</th>
+
+        <th colspan="3">Seminar</th>
+
+      </tr>
+
+      <tr>
+
+        <th colspan="2">Schedule</th>
+
+        <th rowspan="2">Topic</th>
+
+      </tr>
+
+      <tr>
+
+        <th>Begin</th>
+
+        <th>End</th>
+
+      </tr>
+
+  
+
+      <tr>
+
+        <td rowspan="2">Monday</td>
+
+        <td class="yellow" rowspan="2">8:00 a.m.</td>
+
+        <td class="blue" rowspan="2">5:00 p.m.</td>
+
+        <td>Introduction to XML</td>
+
+      </tr>
+
+      <tr>
+
+        <td>Validity: DTD and Relax NG</td>
+
+      </tr>
+
+  
+
+      <tr>
+
+        <td rowspan="3">Tuesday</td>
+
+        <td class="yellow">8:00 a.m.</td>
+
+        <td class="green">11:00 a.m.</td>
+
+        <td rowspan="1">XPath</td>
+
+      </tr>
+
+      <tr>
+
+        <td class="green">11:00 a.m.</td>
+
+        <td class="green">2:00 p.m.</td>
+
+      </tr>
+
+      <tr>
+
+        <td class="green">2:00 p.m.</td>
+
+        <td class="blue">5:00 p.m.</td>
+
+        <td rowspan="1">XSL Transformations</td>
+
+      </tr>
+
+  
+
+      <tr>
+
+        <td>Wednesday</td>
+
+        <td class="yellow">8:00 a.m.</td>
+
+        <td class="green">12:00 p.m.</td>
+
+        <td>XSL Formatting Objects</td>
+
+      </tr>
+
+    </table>
+
+  </body>
+
+</html>
+```
+
+iframe tag nested browsing context display another html page in the current page 
+everywebsite or everything cannot be added using iframe or we can say embedded
+
+```html
+<iframe
+
+      width="1510"
+
+      height="790"
+
+      src="https://f-8.me"
+
+      title="My Personal Portfolio"
+
+      frameborder="0"
+
+      allowfullscreen
+
+    ></iframe>
+```
+
+audio tag and video tag 
+
+```html
+<audio controls loop muted autoplay>
+
+      <source src="/html/audio.mp3" type="audio/mpeg" />
+
+      your browser does not supports this audio
+
+    </audio>
+
+    <hr />
+
+    <br />
+
+    <video
+
+      controls
+
+      width="500"
+
+      height="250"
+
+      loop
+
+      muted
+
+      poster="/html/5247889.jpg"
+
+      autoplay
+
+    >
+
+      <source src="/html/video.mp4" type="video/mp4" />
+
+    </video>
+```
+
+## Forms in html
