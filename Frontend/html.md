@@ -694,3 +694,324 @@ audio tag and video tag
 ```
 
 ## Forms in html
+
+you can give max min value attributes to number input 
+we can use tel and number for mobile numbers 
+
+when using radio buttons for gender we need to pass the for value in name attribute in the input to select one gender only we can also use drop down for that vlaue attribute will have male female and so on
+
+use place holder for adding a text as a placeholder
+
+use required attribute to make the entry necessary
+
+we have disabled also autocomplete
+
+we can add regex patterns to match the input entry with pattern attribute
+
+we also have tags like feildset and legend
+
+```html
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+  </head>
+
+  <body>
+
+    <h1>Forms in HTML</h1>
+
+    <br />
+
+    <form>
+
+      <div>
+
+        <label for="username">Username</label>
+
+        <input type="text" id="username" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="password">Password</label>
+
+        <input
+
+          type="password"
+
+          id="password"
+
+          placeholder="enter your password"
+
+        />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="email">Email</label>
+
+        <input type="email" id="email" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="phone">Phone Number</label>
+
+        <input type="number" id="phone" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="radio">Radio Buttons</label>
+
+        <input type="radio" name="" id="radio" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="checkbox">Checkbox</label>
+
+        <input type="checkbox" name="" id="checkbox" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="datetime">Date And Time</label>
+
+        <input type="datetime" name="" id="datetime" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="submit">submit</label>
+
+        <input type="submit" value="submit" />
+
+        <label for="reset">reset</label>
+
+        <input type="reset" value="reset" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="message">Message goes here</label>
+
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="country">Select Country: </label>
+
+        <select name="country" id="country">
+
+          <option value="usa">USA</option>
+
+          <option value="uk">UK</option>
+
+          <option value="canada">Canada</option>
+
+        </select>
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="file">File</label>
+
+        <input type="file" name="" id="file" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="country"></label>
+
+        <input type="text" name="country" id="country" list="countries" />
+
+        <datalist id="countries">
+
+          <option value="usa">USA</option>
+
+          <option value="uk">UK</option>
+
+          <option value="canada">Canada</option>
+
+          <option value="in">India</option>
+
+        </datalist>
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <details>
+
+          <summary>Details</summary>
+
+          <p>Hello there</p>
+
+        </details>
+
+      </div>
+
+      <br />
+
+      <button type="submit">submit</button>
+
+      <br />
+
+      <br />
+
+      <div>
+
+        <label for="range">Range</label>
+
+        <input type="range" name="range" id="range" value="50" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="date">Date</label>
+
+        <input type="date" name="date" id="date" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="time">Time</label>
+
+        <input type="time" id="time" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="color">Color</label>
+
+        <input type="color" name="color" id="color" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="website">websie url</label>
+
+        <input
+
+          type="url"
+
+          name="websie"
+
+          id="website"
+
+          placeholder="https://f-8.me"
+
+        />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="week">Weekdays</label>
+
+        <input type="week" name="week" id="week" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="month">Month</label>
+
+        <input type="month" name="month" id="month" />
+
+      </div>
+
+      <br />
+
+      <div>
+
+        <label for="search">Search</label>
+
+        <input type="search" name="search" id="search" />
+
+      </div>
+
+    </form>
+
+  </body>
+
+</html>
+```
+
+## Semantic Tags
+
+they specify meaning to browser and developer as well
+
+header 
+footer
+nav
+main - main tag should be only one per page
+section
+aside
+article
+
+we also have a tag called progress
+
+Html complete here projects to make left only
