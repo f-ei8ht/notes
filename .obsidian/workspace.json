@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frontend/html.md",
+                "file": "Rust/Rust.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "html"
+              "title": "Rust"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d3fff2e13fbb476a",
@@ -195,9 +196,9 @@
   },
   "active": "69ed5e1500e24be6",
   "lastOpenFiles": [
+    "Frontend/html.md",
     "Misc/Misc.md",
     "WhatToStudy.md",
-    "Frontend/html.md",
     "Resources.md",
     "Rust/Rust.md",
     "Pasted image 20250506174927.png"

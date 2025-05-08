@@ -94,8 +94,8 @@ what can be the typescript code?
 
 ```ts
 function main() {
-    const x: number = 4;
-    console.log(x);
+  const x: number = 4;
+  console.log(x);
 }
 main();
 ```
@@ -114,3 +114,138 @@ fn main() {
 
 it will build meaning it will compile but not run 
 `thread 'main' panicked at src/main.rs:4:13:attempt to add with overflow`
+
+boolean are normal just like `true` and `false` in any other language.
+
+```rust
+fn main() {
+	let is_male = false;
+	let is_above18 = true;
+	if is_male {
+		println!("You are not Male");
+	} else if is_male && is_above18 {
+		print!("You are a Male and you can vote");
+	} else {
+		print!("You are not male and you cannot vote");
+	}
+}
+```
+
+Strings are fairly complicated in rust, we have
+
+```rust
+fn main() {
+	let mut s = String::from("Hello");
+	println!("{}", s);
+	let s1: &'static str = "saif";
+	print!("{}", s1)
+}
+```
+
+you can use String::from which is mutable if using mut but not the string slice as it is borrowed &str most probably used with functions, parameters but the static str is related to lifetimes and should be use with literals and constants.
+
+In strings you cannnot access the index like in js/ts
+
+```js
+function main() {
+	let s = "saif";
+	console.log(s[0]);
+}
+main()
+```
+
+no rust does not allows that it says may be there can be something or me be not 
+
+```js
+// if we try to access some very big index
+console.log(s[1000]); // undefined 
+```
+
+js does not cares it just prints out undefined
+
+rust compiler will not allow anything like this 
+we can do pattern matching which will be discussed later on for the time being we can use `unwrap` which tells the compiler its okay there is something i know you have to be sure about.
+
+**`unwrap`** generally refers to a method or function that **extracts the value inside a container or wrapper**, assuming the value is present and valid.
+
+```rust
+let c = s.chars().nth(2);
+println!("{}", c.unwrap());
+```
+
+if you try to access a index where nothing is present you will get something like this
+
+```bash
+thread 'main' panicked at string.rs:9:22:
+called `Option::unwrap()` on a `None` value
+```
+
+
+# Conditionals in rust
+
+if else are pretty straightforward in rust just like any other language 
+
+```rust
+fn main() {
+	let x = 2;
+	let is_even = is_even(x);
+	if is_even {
+		println!("{} This is even number", x);
+	} else {
+		println!("{} This is odd number", x);
+	}
+}
+fn is_even(n: i32) -> bool {
+	return n % 2 == 0;
+}
+```
+
+lets see how for loops work in rust 
+`for i in 0..10` it will iterate till 10 - 1 = 9
+one less
+
+how to get the first word from the string we will use for loop to iterate over the string using chars() then until no space found we will push the characters one by one to a new string 
+
+```rust
+fn main() {
+	let sentence = String::from("my name is saif");
+	let first_word = get_first_word(sentence);
+
+	for i in 0..1000 {
+		let i: i64 = i as i64;
+		println("hello world: {}", i);
+	}
+	
+	println!("{}", first_word);
+}
+
+fn get_first_word(sentence: String) -> String {
+	let mut word = String::from("");
+	for char in sentence.chars() {
+		word.push_str(char.to_string().as_str());
+		if char == ' ' {
+			break;
+		}
+	}
+return word;
+}
+```
+
+#todo
+rust does not allow to change i in the loop syntax i think so need to confirm first but you can cast it to be i64 like i did and there must be some other ways as well. need to find
+
+# Functions in rust
+
+pretty straight forward
+
+```rust
+fn main() {
+	let x = add_num(2,3);
+	println!("{}",x);
+}
+
+fn add_num(a: i32, b: i32) -> i32 {
+	return a + b;
+}
+```
+ new thing to learn only is that `-> i32` return type of the function there.
