@@ -10,11 +10,11 @@
 	- Computer Architecture and Organization
 	- System Design (lld + hld)
 	- Software Engineering
-3. Android + Kotin + Jetpack Compose => [Page](Kotlin.md)
-4. Frontend => html,css,tailwind,js,ts,gsap,locomotive,lenis,ui libraries
-5. Competitive programming c++
-6. Backend (spring boot, java, go, restapi, grpc/graphql, microservices)
-7. Solana/rust/sui/aptos/move
-8. zig/c
-9. devops
-10. hft related (finance, alphas, kbd+/q, ccxt)
+3. Frontend => html,css,tailwind,js,ts,gsap,locomotive,lenis,ui libraries
+4. Competitive programming c++
+5. Backend (spring boot, java, go, restapi, grpc/graphql, microservices)
+6. Solana/rust/sui/aptos/move
+7. zig/c
+8. devops
+9. hft related (finance, alphas, kbd+/q, ccxt)
+10. haskell/ocaml
