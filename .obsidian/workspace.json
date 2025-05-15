@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WhatToStudy.md",
+                "file": "Rust/Rust.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WhatToStudy"
+              "title": "Rust"
             }
           }
         ]
@@ -195,12 +195,14 @@
   },
   "active": "69ed5e1500e24be6",
   "lastOpenFiles": [
-    "Resources.md",
     "README.md",
+    "Rust/Rust.md",
+    "WhatToStudy.md",
+    "Rust",
+    "Resources.md",
     "Misc/Misc.md",
     "Rust/Rust.md",
     "Frontend/html.md",
-    "WhatToStudy.md",
     "Pasted image 20250506174927.png"
   ]
 }
