@@ -16,3 +16,5 @@ https://pascalmichaillat.org/d5/
 code crafter build your own x github page
 
 seanprasad leetcode patterns
+
+Accomplished x as measured by y by doing z
