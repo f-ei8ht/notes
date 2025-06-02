@@ -72,3 +72,17 @@ To reiterate, **arguments are the actual values** that go into the function, s
 Absolute url are the full path to a resource with the protocols (http/https)
 
 Relative url within a web page with no protocol
+
+---
+
+# I got to know one in objects syntax in java
+
+lets say we have an instance method and we create an instance of an class then we can use the reference variable with the methods name like this if we want to call it multiple times
+
+```java
+obj.methodName().methodName().methodName()
+```
+
+I found this so dope man this is known as `method-chaining`.
+
+---

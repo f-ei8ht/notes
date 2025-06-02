@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CP/platforms.md",
+                "file": "Misc/Misc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "platforms"
+              "title": "Misc"
             }
           }
         ]
@@ -196,13 +196,17 @@
   "active": "69ed5e1500e24be6",
   "lastOpenFiles": [
     "Resources.md",
+    "WhatToStudy.md",
+    "Java/OOPS.md",
+    "Java/Basic.md",
+    "Misc/Misc.md",
+    "Solana",
+    "Devops",
+    "CP/platforms.md",
     "GO/Go.md",
     "Rust/Rust.md",
-    "Untitled",
     "README.md",
-    "WhatToStudy.md",
     "Rust",
-    "Misc/Misc.md",
     "Frontend/html.md",
     "Pasted image 20250506174927.png"
   ]
