@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Misc.md",
+                "file": "Rust/Rust.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "Rust"
             }
           }
         ]
@@ -195,16 +195,16 @@
   },
   "active": "69ed5e1500e24be6",
   "lastOpenFiles": [
+    "Misc/Misc.md",
     "Resources.md",
+    "Rust/Rust.md",
     "WhatToStudy.md",
     "Java/OOPS.md",
     "Java/Basic.md",
-    "Misc/Misc.md",
     "Solana",
     "Devops",
     "CP/platforms.md",
     "GO/Go.md",
-    "Rust/Rust.md",
     "README.md",
     "Rust",
     "Frontend/html.md",

@@ -86,3 +86,5 @@ obj.methodName().methodName().methodName()
 I found this so dope man this is known as `method-chaining`.
 
 ---
+
+Bootstrapped languages that are implemented in their own language
