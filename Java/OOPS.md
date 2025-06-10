@@ -161,6 +161,7 @@ public class This {
     public void addFuel(float fuel) {
 
         currentFuel += fuel;
+        this.currentFuel += fuel;
 
     }
 
@@ -192,3 +193,178 @@ public class This {
 
 }
 ```
+
+this is basically the reference to the object of present class when and object is created a reference is also created which can not be seen that is this only 
+
+# static
+we already know that static variables belong to class every instance of a class created can use it with the same copy for other instances of the class and methods is just you can use it without creating the object also static members cannot directly access the non static members of a class also there is a static code block that is executed only once when a class is loaded
+
+# Constructor
+
+```java
+package Challenge9;
+
+  
+
+public class Book {
+
+    static int totalBooks;
+
+    String title;
+
+    String author;
+
+    int isbn;
+
+    boolean borrowBook = false;
+
+  
+
+    static {
+
+        totalBooks = 0;
+
+    }
+
+  
+
+    {
+
+        totalBooks++;
+
+    }
+
+  
+
+    Book() {
+
+        title = "Unknown";
+
+        author = "Unknown";
+
+        isbn = 0;
+
+    }
+
+  
+
+    Book(int isbn) {
+
+        this.isbn = isbn;
+
+        author = "Saad";
+
+        title = "rdr";
+
+    }
+
+  
+
+    Book(String title, String author, int isbn) {
+
+        this.title = title;
+
+        this.author = author;
+
+        this.isbn = isbn;
+
+    }
+
+  
+
+    static int getTotalNoOfBooks() {
+
+        return totalBooks;
+
+    }
+
+  
+
+    void borrowBook() {
+
+        if (borrowBook) {
+
+            System.out.println("Book is already borrowed");
+
+        } else {
+
+            borrowBook = true;
+
+            System.out.println("Book borrowed");
+
+        }
+
+    }
+
+  
+
+    void returnBook() {
+
+        if (borrowBook) {
+
+            borrowBook = false;
+
+            System.out.println("book returned");
+
+        } else {
+
+            System.out.println("Book is not borrowed");
+
+        }
+
+    }
+
+  
+
+    public static void main(String[] args) {
+
+        Book obj = new Book();
+
+        // obj.author = "Saif Ali Khan";
+
+        // // obj.title = "MC";
+
+        obj.isbn = 123;
+
+        obj.borrowBook();
+
+        System.out.println(obj.author + obj.title + obj.isbn);
+
+        System.out.println(getTotalNoOfBooks());
+
+        obj.returnBook();
+
+    }
+
+}
+```
+
+Constructor has same name as class it can be default or parameterized we cannot used this in a static reference because it does not has an instance but can use class name because static memebers are part of class we can also do constructor chaining 
+
+```java
+Book(int isbn) {
+
+        this.isbn = isbn;
+
+        author = "Saad";
+
+        title = "rdr";
+
+    }
+    Book() {
+      this("1"); // isbn
+    }
+```
+
+# Code blocks
+
+```java
+static {
+}
+{
+
+}
+```
+
+static code blocks execute only once the class gets loaded
+normal code block will be executed everytime an instance is made.

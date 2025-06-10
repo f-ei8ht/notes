@@ -513,3 +513,77 @@ Initial String: Saif Ali
 ```
 
 # Jargon 3: Ownership in Rust
+
+Owner ship in rust are set rules that compiler checks that the rust code should follow that helps in managing the memory.
+
+stack will probably have no issue or ownership like concept but lets say we have
+```rust
+fn main() {
+	let x: i32 = 1; // main fn is the owner for this in the stack
+}
+```
+
+we also know the scope things like 
+```rust
+{
+	let x: i32 = 1;
+}
+println!("{}",x); // cannot access outside the scope
+```
+
+but for the heap things change
+```rust
+fn main() {
+	let s1 = String::from("hello");
+	let s2 = s1; 
+}
+```
+
+if we try to print s1 there will be an error because the s1 will be created in stack and s2 as well but the pointer of hello in the heap will change to s2 it will not create copies for hello in the heap, if we want so 
+
+```rust
+fn main() {
+	let s1 = String::from("hello");
+	let s2 = s1.clone(); 
+}
+```
+
+probably do something like this and will be two stack frames with s1 and s2 pointing to two hello locations in heap probably the copy of s1 in the s2
+
+```rust
+fn main() {
+	let s1 = String::from("hello");
+	take_ownership(s1);
+	println!("{}",s1);
+}
+fn take_ownership(s1: String) {
+	println!("{}",s1);
+}
+```
+
+what happens here is the ownership moves to the s1 in function take_ownership and tahts why there will be an error to this what we can do is used .clone in the fn calling or we can also do this
+
+```rust
+fn main() {
+	let mut s1 = String::from("hello");
+	s1 = take_ownership(s1);
+	println!("{}",s1);
+}
+fn take_ownership(s1: String) -> String {
+	return s1;
+}
+```
+
+the ownership is returned back to s1 in main fn
+```rust
+fn main() {
+	let s1 = String::from("hello");
+	let s2 = take_ownership(s1);
+	println!("{}",s2);
+}
+fn take_ownership(s1: String) -> String {
+	return s1;
+}
+```
+
+we can also do like this
