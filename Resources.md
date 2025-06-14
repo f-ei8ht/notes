@@ -1,4 +1,4 @@
-https://hyperskill.org/knowledge-map/4499
+
 follow [CIS194](https://www.seas.upenn.edu/~cis1940/spring13/lectures.html)
 https://gilmi.me/blog/post/2021/08/14/hs-core-tools
 haskell from the first principles
@@ -24,3 +24,10 @@ Accomplished x as measured by y by doing z
 [Aniruddha-Deb/quant-prep: Quant prep resources/logs](https://github.com/Aniruddha-Deb/quant-prep)
 
 [Ricktho1/Quant_resources: Drop your resources for quant and related to that here](https://github.com/Ricktho1/Quant_resources/)
+
+https://courses.algocamp.io/learn/Advanced-backend-development-with-Spring-Boot
+tuf+
+tle eliminators
+gshock
+ram
+ssd

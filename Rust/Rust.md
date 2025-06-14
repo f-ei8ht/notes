@@ -587,3 +587,10 @@ fn take_ownership(s1: String) -> String {
 ```
 
 we can also do like this
+
+https://courses.algocamp.io/learn/Advanced-backend-development-with-Spring-Boot
+tuf+
+tle eliminators
+gshock
+ram
+ssd

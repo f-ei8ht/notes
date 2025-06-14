@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/Rust.md",
+                "file": "Java/Basic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rust"
+              "title": "Basic"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 236.5
   },
   "right": {
     "id": "d3fff2e13fbb476a",
@@ -195,16 +195,20 @@
   },
   "active": "69ed5e1500e24be6",
   "lastOpenFiles": [
-    "Java/OOPS.md",
+    "Java/Mem Mngmnt in Java.md",
+    "Java/The Java Virtual Machine.md",
+    "Java/Importants.md",
     "Java/Basic.md",
+    "Java/img/Memory.png",
     "Java/Array.md",
+    "Java/OOPS.md",
+    "Resources.md",
+    "Rust/Rust.md",
     "GSoC/SPF (Symbolic Pathfinder).md",
     "GSoC/Off-Shelf-Solvers.md",
     "GSoC/GSoC.md",
     "GSoC/Abstract.md",
     "Misc/Misc.md",
-    "Rust/Rust.md",
-    "Resources.md",
     "WhatToStudy.md",
     "Solana",
     "Devops",

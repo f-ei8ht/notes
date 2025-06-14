@@ -456,4 +456,11 @@ public static void main(String[] args) {
 ```
 
 
-objects reference are passed but it is also pass by value because a copy of reference is passed
+objects reference are passed but it is also pass by value because a copy of reference is passed. 
+
+## Ternary Operator
+
+syntax 
+
+result = num1 > num2 ? true : false;
+only one thing to keep in mind is that the type should be same
