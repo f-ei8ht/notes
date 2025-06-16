@@ -405,9 +405,9 @@ while condition true used for non standard conditions
 
 ```java
 int n = 1; // initilization
-while(condition) { // condition
+while(n > 0) { // condition
 	// body of loop
-	n++; // updation
+	n--; // updation
 }
 ```
 - initialization
@@ -464,3 +464,188 @@ syntax
 
 result = num1 > num2 ? true : false;
 only one thing to keep in mind is that the type should be same
+
+## Switch case
+
+```java
+swtich(choice) {
+	case 1:
+		// expression
+		break;
+	default: 
+		// expression
+}
+```
+
+accepts the primitives and enum as well long double float from java 14 types should be same
+
+## Do While Loop
+
+```java
+int count = 1;
+do {
+    System.out.println("Count is: " + count);
+    count++;
+} while (count <= 5);
+
+```
+
+it will execute once one iteration will be made
+
+## For Loop
+```java
+for(int i = 1; i < 5; i++) {
+	System.out.println("Count is: " + i);
+}
+```
+
+## For each loop 
+
+we generally use for loop if we want to read through arrays or a collection of data basically what I learned
+
+```java
+package Challenge10;
+
+  
+
+public class Loop {
+
+    public static void main(String[] args) {
+
+        // for (int i = 1;;) {
+
+        // if (i > 5) {
+
+        // break;
+
+        // }
+
+        // System.out.println(i);
+
+        // i++;
+
+        // }
+
+        String[] names = { "SAIF", "SAAD", "Shoaib", "YUSUF" };
+
+  
+
+        for (String name : names) {
+
+            if (name.equals("SAIF"))
+
+                name = "no"; // copy of the array not original
+
+            System.out.println(name);
+
+        }
+
+        System.out.println(names[0]);
+
+    }
+
+}
+```
+
+### **Labeled loops** 🔁 (rare use case)
+
+Used with `break` or `continue` to jump to specific outer loops.
+
+```java
+package Challenge10;
+
+  
+
+public class Label {
+
+    public static void main(String[] args) {
+
+        outerLoop: // this is a label
+
+        for (int i = 0; i < 3; i++) {
+
+            for (int j = 0; j < 3; j++) {
+
+                if (j == 2)
+
+                    break outerLoop;
+
+                System.out.println("i=" + i + ", j=" + j);
+
+            }
+
+        }
+
+  
+
+    }
+
+}
+```
+**Meaning:**  
+`break outerLoop;` will break **out of the labeled outer loop**, not just the inner loop.
+
+## Break statement
+we can use label to break out of some loop like it can be inner or outer as well but the break only work for a certain scope only 
+```java
+package BreakandContinue;
+
+  
+
+public class Break {
+
+    public static void main(String[] args) {
+
+        outer: for (int i = 0; i < 10; i++) {
+
+            for (int j = 0; j < 1000; j++) {
+
+                if (j == 101)
+
+                    break outer;
+
+                System.out.println(j);
+
+            }
+
+        }
+
+    }
+
+}
+```
+
+I we remove outer here then the inner loop will exit if we gonna use a label then the outer loop will be exited break is also used with switch 
+
+## Continue statement
+```java
+package BreakandContinue;
+
+  
+
+public class Continue {
+
+    public static void main(String[] args) {
+
+        outer: for (int i = 0; i < 10; i++) {
+
+            for (int j = 0; j < 5; j++) {
+
+                if (j == 2)
+
+                    continue outer;
+
+                System.out.print(j);
+
+            }
+
+        }
+
+    }
+
+}
+```
+
+continue just skips the condition that is met true like here j == 2 then the label will take the control to the outer loop.
+
+in while loop during the continue to avoid infinite loop we have to update the while loop above the continue statement.
