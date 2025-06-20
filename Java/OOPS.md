@@ -195,7 +195,15 @@ public class This {
 ```
 
 this is basically the reference to the object of present class when and object is created a reference is also created which can not be seen that is this only 
+# I got to know one in objects syntax in java
 
+lets say we have an instance method and we create an instance of an class then we can use the reference variable with the methods name like this if we want to call it multiple times
+
+```java
+obj.methodName().methodName().methodName()
+```
+
+I found this so dope man this is known as `method-chaining`.
 # static
 we already know that static variables belong to class every instance of a class created can use it with the same copy for other instances of the class and methods is just you can use it without creating the object also static members cannot directly access the non static members of a class also there is a static code block that is executed only once when a class is loaded also ==one thing is that may be we cannot access non static members of a class using static things but we can access them through the instance.== Inner classes can also be static 
 

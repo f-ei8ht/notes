@@ -6,8 +6,7 @@ This repository contains my personal notes on various topics, including Data Str
 
 The notes are organized into different categories:
 
-1. **Android** - Kotlin and Jetpack Compose => [Page](Android.md)
-2. **Computer Science Fundamentals** -
+1. **Computer Science Fundamentals** -
 	- Object-Oriented Programming => [Page](CS%20Fundamentals/OOPS.md)
 	- Operating Systems
 	- Database Management System
@@ -15,12 +14,11 @@ The notes are organized into different categories:
 	- System Design
 	- Computer Architecture and Organization
 	- Software Engineering
-3. **DSA** => [Page](DSA.md)
-4. **Frontend** – 
+2. **DSA** => [Page](DSA.md)
+3. **Frontend** – 
 	- HTML => [Page](HTML)
-5. **GO** => [Page](Go.md)
-6. **Kotlin** – Language concepts, Android-specific Kotlin features => [Page](Kotlin.md)
-7. **Java** – Core Java => [Page](Basic.md)
+4. **GO** => [Page](Go.md)
+5. **Java** – Core Java => [Page](Basic.md)
 
 ## 🔧 How to use this repo
 

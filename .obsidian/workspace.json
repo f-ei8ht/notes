@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Basic.md",
+                "file": "Roadmap/Roadmap Backend.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Basic"
+              "title": "Roadmap Backend"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 200
   },
   "right": {
     "id": "d3fff2e13fbb476a",
@@ -195,28 +195,38 @@
   },
   "active": "69ed5e1500e24be6",
   "lastOpenFiles": [
-    "Java/OOPS.md",
-    "CS Fundamentals/OOPS.md",
-    "Basic CS/Misc.md",
-    "OOPS",
-    "Java/Basic.md",
+    "Java/Servlet JDBC JSP.md",
+    "Roadmap/Roadmap Backend.md",
+    "Roadmap",
+    "DSA/Resources.md",
+    "GSoC/SPF (Article).md",
+    "README.md",
+    "HFT",
+    "Maths",
+    "Backend",
     "Java/Mem Mngmnt in Java.md",
+    "Java/OOPS.md",
+    "Rust/Rust.md",
+    "Java/Basic.md",
+    "Basic CS/Misc.md",
+    "GSoC/Video by miss pasareau.md",
+    "GSoC/Off-Shelf-Solvers.md",
+    "GSoC/Abstract.md",
     "Java/The Java Virtual Machine.md",
+    "Java/Keywords.md",
     "Java/Importants.md",
+    "Java/String.md",
+    "Java/Recursion.md",
+    "CS Fundamentals/OOPS.md",
+    "OOPS",
     "Java/img/Memory.png",
     "Java/Array.md",
     "Resources.md",
-    "Rust/Rust.md",
-    "GSoC/SPF (Symbolic Pathfinder).md",
-    "GSoC/Off-Shelf-Solvers.md",
-    "GSoC/GSoC.md",
-    "GSoC/Abstract.md",
     "WhatToStudy.md",
     "Solana",
     "Devops",
     "CP/platforms.md",
     "GO/Go.md",
-    "README.md",
     "Rust",
     "Frontend/html.md",
     "Pasted image 20250506174927.png"
