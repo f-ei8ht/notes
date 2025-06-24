@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Roadmap/Roadmap Backend.md",
+                "file": "Java/Basic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Roadmap Backend"
+              "title": "Basic"
             }
           }
         ]
@@ -195,21 +195,28 @@
   },
   "active": "69ed5e1500e24be6",
   "lastOpenFiles": [
-    "Java/Servlet JDBC JSP.md",
+    "Resources.md",
     "Roadmap/Roadmap Backend.md",
-    "Roadmap",
-    "DSA/Resources.md",
-    "GSoC/SPF (Article).md",
-    "README.md",
+    "Java/Servlet JDBC JSP.md",
+    "HFT/Hft.md",
+    "Java/Basic.md",
+    "Frontend/What to learn.md",
     "HFT",
+    "Java/Mem Mngmnt in Java.md",
+    "GSoC/SPF (Article).md",
+    "GSoC/Video by miss pasareau.md",
+    "DSA/Time and Space Complexity.md",
+    "DSA/Resources.md",
+    "DSA/DSA.md",
+    "CS Fundamentals/OOPS.md",
+    "Roadmap",
+    "README.md",
+    "Java/HFT",
     "Maths",
     "Backend",
-    "Java/Mem Mngmnt in Java.md",
     "Java/OOPS.md",
     "Rust/Rust.md",
-    "Java/Basic.md",
     "Basic CS/Misc.md",
-    "GSoC/Video by miss pasareau.md",
     "GSoC/Off-Shelf-Solvers.md",
     "GSoC/Abstract.md",
     "Java/The Java Virtual Machine.md",
@@ -217,18 +224,13 @@
     "Java/Importants.md",
     "Java/String.md",
     "Java/Recursion.md",
-    "CS Fundamentals/OOPS.md",
     "OOPS",
     "Java/img/Memory.png",
     "Java/Array.md",
-    "Resources.md",
     "WhatToStudy.md",
     "Solana",
     "Devops",
-    "CP/platforms.md",
-    "GO/Go.md",
     "Rust",
-    "Frontend/html.md",
     "Pasted image 20250506174927.png"
   ]
 }

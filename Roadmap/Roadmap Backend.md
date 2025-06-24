@@ -47,7 +47,6 @@ Some Extras
 - Elk, Grafana, Prometheus
 - HTML, CSS, JS/TS, tailwindcss, flowbite, thymeleaf, Maven, Gradle, Junit, Mockito
 
-Optional
 - System design
 - HLD LLD
 - Design patterns(singelton)
@@ -62,3 +61,37 @@ YT Channels
 - lovepreet singh
 - sriniously
 - concept and code with shreyansh
+
+Websites
+- linkedin
+- glassdoor
+- indeed
+- naukri
+- instahyre
+- wellsfound
+- company career pages
+- hacker rank jobs
+- hacker earth jobs
+- monster
+- cuvette tech
+- unstop
+- tokyo dev
+- japan dev
+- Massive AI
+- myhirepro carrerdotnet
+- superteam
+- gib.work
+- devpost 
+- devfolio
+- elitmus
+- amcat
+- Simplify jobs github repo
+
+Some things to keep in mind:
+- Agile Methodologies
+- TDD
+- Clean code
+- Coding conventions
+
+Machine Coding rounds
+- [Machine Coding Interview Practice Questions](https://workat.tech/machine-coding/practice)
