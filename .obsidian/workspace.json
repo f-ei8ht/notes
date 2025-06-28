@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Basic.md",
+                "file": "Java/Servlet JDBC JSP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Basic"
+              "title": "Servlet JDBC JSP"
             }
           }
         ]
@@ -195,14 +195,21 @@
   },
   "active": "69ed5e1500e24be6",
   "lastOpenFiles": [
+    "Java/Modules, Packages and imports.md",
+    "Java/OOPS.md",
+    "Java/Basic.md",
+    "Java/String.md",
+    "Java/Servlet JDBC JSP.md",
+    "Java/Mem Mngmnt in Java.md",
+    "Freihiet/All things related to frehiet.md",
+    "Java/Importants.md",
+    "README.md",
+    "Freihiet",
     "Resources.md",
     "Roadmap/Roadmap Backend.md",
-    "Java/Servlet JDBC JSP.md",
     "HFT/Hft.md",
-    "Java/Basic.md",
     "Frontend/What to learn.md",
     "HFT",
-    "Java/Mem Mngmnt in Java.md",
     "GSoC/SPF (Article).md",
     "GSoC/Video by miss pasareau.md",
     "DSA/Time and Space Complexity.md",
@@ -210,24 +217,18 @@
     "DSA/DSA.md",
     "CS Fundamentals/OOPS.md",
     "Roadmap",
-    "README.md",
     "Java/HFT",
     "Maths",
     "Backend",
-    "Java/OOPS.md",
     "Rust/Rust.md",
     "Basic CS/Misc.md",
     "GSoC/Off-Shelf-Solvers.md",
     "GSoC/Abstract.md",
     "Java/The Java Virtual Machine.md",
     "Java/Keywords.md",
-    "Java/Importants.md",
-    "Java/String.md",
     "Java/Recursion.md",
     "OOPS",
     "Java/img/Memory.png",
-    "Java/Array.md",
-    "WhatToStudy.md",
     "Solana",
     "Devops",
     "Rust",

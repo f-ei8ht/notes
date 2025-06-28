@@ -418,4 +418,4 @@ static {
 ```
 
 static code blocks execute only once the class gets loaded
-normal code block will be executed everytime an instance is made.
+normal code block will be executed every time an instance is made.

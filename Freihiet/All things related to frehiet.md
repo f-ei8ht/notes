@@ -1,0 +1,5 @@
+https://officesnapshots.com/2016/05/12/freiheit-com-offices-hamburg/
+
+String operations practise words sentence reverse practise strings properly they rely on strings very much, learn about parsers convert html to markdown and markdown to html as well, basic interpreter, projects, challenge you face problems you faced how you solved, why you want to join. how do you tackle a big workload
+
+ the problems can be categorized as Greedy algorithm focusing on time complexity and special cases (similar to hackerrank, codeforces). After that, a technical interview where you have to code in front of two developers from the team. They were trying to understand my way of thinking and logic, that could be a little bit stressful. However, the interviewers helped me when I needed to, and they were dynamic and tolerant. The last interview was with the CEO to know more about my experience and passion
