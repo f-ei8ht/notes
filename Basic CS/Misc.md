@@ -80,3 +80,4 @@ Relative url within a web page with no protocol
 ---
 
 # Programming Paradigms
+oops, functional, procedural, imperative, declarative

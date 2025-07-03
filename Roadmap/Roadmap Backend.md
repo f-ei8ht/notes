@@ -95,3 +95,4 @@ Some things to keep in mind:
 
 Machine Coding rounds
 - [Machine Coding Interview Practice Questions](https://workat.tech/machine-coding/practice)
+[System Design Problems](https://codemia.io/system-design)

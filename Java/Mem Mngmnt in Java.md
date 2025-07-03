@@ -65,7 +65,7 @@ MemoryManagement@365c30cc
 1881129850
 ```
 
-![Memory Management](./img/Memory.png)
+![Memory Management](Memory.png)
 
 ## Detailed Explanation
 

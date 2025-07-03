@@ -1,0 +1,2 @@
+IN this we only one instance of the class 
+we can make the constructor of the class private and a private variable of the class type if some one wants an instance and if there is already one instance of the object present no matters how many new instances are request we will send in the same reference.

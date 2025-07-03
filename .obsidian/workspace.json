@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Servlet JDBC JSP.md",
+                "file": "Basic CS/Misc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Servlet JDBC JSP"
+              "title": "Misc"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 265.5
   },
   "right": {
     "id": "d3fff2e13fbb476a",
@@ -195,19 +195,24 @@
   },
   "active": "69ed5e1500e24be6",
   "lastOpenFiles": [
-    "Java/Modules, Packages and imports.md",
+    "CS Fundamentals/OOPS.md",
     "Java/OOPS.md",
+    "Roadmap/Roadmap Backend.md",
+    "Resources.md",
+    "WhatToStudy.md",
+    "README.md",
+    "CP/platforms.md",
+    "Freihiet/All things related to frehiet.md",
+    "HFT/Hft.md",
+    "Design Patterns/Singleton.md",
+    "Design Patterns",
+    "Java/Modules, Packages and imports.md",
+    "Java/Importants.md",
+    "Java/Servlet JDBC JSP.md",
     "Java/Basic.md",
     "Java/String.md",
-    "Java/Servlet JDBC JSP.md",
     "Java/Mem Mngmnt in Java.md",
-    "Freihiet/All things related to frehiet.md",
-    "Java/Importants.md",
-    "README.md",
     "Freihiet",
-    "Resources.md",
-    "Roadmap/Roadmap Backend.md",
-    "HFT/Hft.md",
     "Frontend/What to learn.md",
     "HFT",
     "GSoC/SPF (Article).md",
@@ -215,7 +220,6 @@
     "DSA/Time and Space Complexity.md",
     "DSA/Resources.md",
     "DSA/DSA.md",
-    "CS Fundamentals/OOPS.md",
     "Roadmap",
     "Java/HFT",
     "Maths",
@@ -224,14 +228,10 @@
     "Basic CS/Misc.md",
     "GSoC/Off-Shelf-Solvers.md",
     "GSoC/Abstract.md",
-    "Java/The Java Virtual Machine.md",
-    "Java/Keywords.md",
-    "Java/Recursion.md",
     "OOPS",
     "Java/img/Memory.png",
     "Solana",
     "Devops",
-    "Rust",
     "Pasted image 20250506174927.png"
   ]
 }

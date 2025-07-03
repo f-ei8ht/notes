@@ -90,3 +90,11 @@ on demand = using the `*` import java.util.`*`;
 packages avoid name collisons by categorizing similar classes together
 
 we have some built in packages in java as well
+
+| Import Type             | Imports                  | Example                            | Use When…                                          |
+| ----------------------- | ------------------------ | ---------------------------------- | -------------------------------------------------- |
+| Single-type             | One class                | `import java.util.Vector;`         | You only need one class                            |
+| Type import-on-demand   | All classes in a package | `import java.util.*;`              | Using multiple classes from same package           |
+| Single static import    | One static member        | `import static java.lang.Math.PI;` | Want to use one constant/method without class name |
+| Static import-on-demand | All static members       | `import static java.lang.Math.*;`  | Using many static methods/constants                |
+if same package then no need to import the class fields behaviours

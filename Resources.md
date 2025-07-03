@@ -33,3 +33,8 @@ ram
 ssd
 
 https://www.youtube.com/@CodingInterviewPrep
+
+https://github.com/liquidslr/leetcode-company-wise-problems/blob/main
+
+For now i will solve on leetcode, codeforces, nextleet the above i can see and neetcode and striver sheets only and may be cp 31 as well
+
