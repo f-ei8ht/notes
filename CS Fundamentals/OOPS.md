@@ -450,6 +450,56 @@ Book(int isbn) {
     }
 ```
 
+In Java, a **copy constructor** is a constructor that creates a new object by copying the fields of another object of the same class.
+
+```java
+class ClassName {
+    // Fields
+    int x;
+    String y;
+
+    // Regular constructor
+    ClassName(int x, String y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    // ✅ Copy constructor
+    ClassName(ClassName other) {
+        this.x = other.x;
+        this.y = other.y;
+    }
+}
+
+```
+
+- Java doesn't provide a default copy constructor — you have to define it explicitly.
+    
+- If your class has mutable fields (e.g., arrays, lists, custom objects), you may need to **deep copy** them inside the copy constructor.
+
+_Deep cloning_ or _deep copying_ is the desired behavior in most cases. In the deep copy, we **create a clone that is independent of the original object** and making changes in the cloned object should not affect the original object.
+this is called cloning in java we also have something like clonable interface clone()
+
+# **Default Cloning via `clone()` method (Shallow Copy)**
+
+If a class implements the `Cloneable` interface and overrides `clone()`, you can use:
+
+
+```java
+class Student implements Cloneable {     String name;     int age;      public Student(String name, int age) {         this.name = name;         this.age = age;     }      @Override     protected Object clone() throws CloneNotSupportedException {         return super.clone(); // shallow copy     } }
+```
+
+
+`Student s1 = new Student("Alice", 20); Student s2 = (Student) s1.clone();`
+
+🔹 **Limitations**:
+
+- `clone()` gives **shallow copy** by default.
+    
+- You must handle `CloneNotSupportedException`.
+    
+- For deep copy, override `clone()` and manually copy fields.
+
 # Code blocks
 
 ```java
@@ -462,3 +512,15 @@ static {
 
 static code blocks execute only once the class gets loaded
 normal code block will be executed every time an instance is made.
+
+# Access Modifiers
+
+private, public, default, protected
+
+public you can access any where across packages
+default if we dont specify any thing to a class or the class members then it is default, it is accessible only inside a package (no modifier/ package-private )
+private is acccessible only inside the class, but we can access private in a different class indirectly by creating the class object
+
+# Getter and Setters
+
+

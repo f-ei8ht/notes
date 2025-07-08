@@ -58,7 +58,7 @@ the object is created in the heap when new is encountered by jvm with defualt va
 dynamic allocate it is runtime process which happens when new keyword is encountered means the memory will be allocated during the runtime 
 #mostimp constructor is a special method which will have same name as class.
 
-# the class swap problem
+# the classic swap problem
 
 variables does not gets swap if you do this
 ```java
@@ -136,3 +136,45 @@ final variable initialize when
 |Local|Before use — either at declaration or later|
 |Instance `final`|At declaration or in constructor|
 |Static `final`|At declaration or in static block|
+
+class can only be default and public it cannot be private or protected
+
+.class contains the bytecode instructions after javac compiles a .java file we can see this by using javap -c and the class name like Main.java and why are these called bytecode instructions because size of every instruction is 1 byte(8 bits) exactly and these bytecode instructions are meant for the jvm they are understood by the jvm, which converts them to machine code
+
+JVM Is a runtime engine or you can say a virtual machine as well because it stimulated a computer system it can do memory management, loading, run then according to the host machine match the host machine configurations, jvm has to be compatible with the os it is being used on
+
+# IS JAVA OOPS PURELY OR NOT?
+
+Java has primitive types int float long double char they are not objects not either they are class
+Everything should be accesses using message passing (through objects)
+One object **sends a message** to another object by **invoking its method** — asking it to perform an action or return some information.
+but java has static variables and methods which do not need objects to be accessed
+
+java do not has multiple inheritance, we support it by using interface
+
+but every thing is contained in a class the primitive the keyword void are represented as a object of the class 
+Class, it means they are part and parcel of class definition and should not be considered as individual elements
+
+adaptive optimizer (using interpreter and jit together)
+
+
+> `import` is for the **compiler**, not the JVM.  
+>  JVM uses fully-qualified class names found in bytecode.  
+> When a method is called, the JVM runs the actual method **in the original class** — it does **not copy or inject** code into yours.
+
+methods accept some data from outside they can also return some reuslt
+
+we do not want to make main method an object to be called with so we use static and made it public so that jvm will find it it should match the signature String[] args then only this main will be picked up 
+
+bedefault jvm treats numbers to be int type to make it use long you have to specifiy L 
+
+same goes with float and long bydefault we will have a decimal to be double we need to use F or D to specifiy it
+
+single precision floating point numbers (float) 7 decimal places, double precisoin floating point numbers(doble) 15 decimal places
+
+we can use underscore __ in numeric litreals like 10_3_33 like this as well 
+
+0b1101 binary
+023 octal
+0x16 heex
+1212 decimal

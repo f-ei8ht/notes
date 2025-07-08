@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3591e665b9d3f982",
+        "id": "6d29b4c90294c99c",
         "type": "tabs",
         "children": [
           {
-            "id": "69ed5e1500e24be6",
+            "id": "dc634decbb537865",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basic CS/Misc.md",
+                "file": "Java/Importants.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Misc"
+              "title": "Importants"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 200
   },
   "right": {
     "id": "d3fff2e13fbb476a",
@@ -193,45 +193,46 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "69ed5e1500e24be6",
+  "active": "dc634decbb537865",
   "lastOpenFiles": [
     "CS Fundamentals/OOPS.md",
-    "Java/OOPS.md",
-    "Roadmap/Roadmap Backend.md",
+    "DSA/Time and Space Complexity.md",
+    "DSA/img/graph.png",
+    "DSA/img/graph.jpg",
+    "DSA/DSA.md",
+    "Java/Recursion.md",
+    "Java/String.md",
+    "Java/Array.md",
+    "DSA/Resources.md",
+    "Java/Basic.md",
+    "Java/Importants.md",
     "Resources.md",
+    "System Design",
+    "Roadmap/Roadmap Backend.md",
+    "Freihiet/All things related to frehiet.md",
+    "Basic CS/Basics of CS.md",
+    "Java/OOPS.md",
     "WhatToStudy.md",
     "README.md",
     "CP/platforms.md",
-    "Freihiet/All things related to frehiet.md",
     "HFT/Hft.md",
     "Design Patterns/Singleton.md",
     "Design Patterns",
     "Java/Modules, Packages and imports.md",
-    "Java/Importants.md",
     "Java/Servlet JDBC JSP.md",
-    "Java/Basic.md",
-    "Java/String.md",
     "Java/Mem Mngmnt in Java.md",
     "Freihiet",
     "Frontend/What to learn.md",
     "HFT",
     "GSoC/SPF (Article).md",
     "GSoC/Video by miss pasareau.md",
-    "DSA/Time and Space Complexity.md",
-    "DSA/Resources.md",
-    "DSA/DSA.md",
     "Roadmap",
     "Java/HFT",
     "Maths",
     "Backend",
-    "Rust/Rust.md",
-    "Basic CS/Misc.md",
-    "GSoC/Off-Shelf-Solvers.md",
-    "GSoC/Abstract.md",
     "OOPS",
     "Java/img/Memory.png",
     "Solana",
-    "Devops",
     "Pasted image 20250506174927.png"
   ]
 }
