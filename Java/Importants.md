@@ -176,5 +176,25 @@ we can use underscore __ in numeric litreals like 10_3_33 like this as well
 
 0b1101 binary
 023 octal
-0x16 heex
+0x16 hex
 1212 decimal
+
+sign bit 0 represents a positive number and 1 represents a negative number dont confuse with true false
+>>> we also have this the are zero fill right shift operator fills sign bit to be 0
+
+ternary is also called conditional operator
+
+. -> member operator the dot (.) 
+
+sequential statement => one by one execution
+control statements => repeatedly and randomly
+
+in do while statements executed first but in while condition then statements 
+
+we should use do while and while when we do not know the number of iteration they will run till the condition is false for loop fixed number of times 
+
+you can also use  for (; ;) like this no issue 
+
+we can also give like this for(int i = 1, int j = 1; i < 4; i++, j--)
+
+we can use System.exit(0) to normally termiate a program while exit(1) means some error terminated the program 

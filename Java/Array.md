@@ -26,3 +26,4 @@ a[1] = 4;
 int [][] a = new int[2][2];
 ```
 
+the memory given to will not depend on the value but on the number of elements given in the above example we have 2 and 2 that is 4 and for int we have 4 bytes so 4 * 4 it is 16 bytes 

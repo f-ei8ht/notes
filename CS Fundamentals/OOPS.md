@@ -513,6 +513,8 @@ static {
 static code blocks execute only once the class gets loaded
 normal code block will be executed every time an instance is made.
 
+
+# ENCAPSULATION
 # Access Modifiers
 
 private, public, default, protected
@@ -521,6 +523,202 @@ public you can access any where across packages
 default if we dont specify any thing to a class or the class members then it is default, it is accessible only inside a package (no modifier/ package-private )
 private is acccessible only inside the class, but we can access private in a different class indirectly by creating the class object
 
+| Access Modifier           | Class | Package | Subclass                                       | Other Packages         |
+| ------------------------- | ----- | ------- | ---------------------------------------------- | ---------------------- |
+| `private`                 | ✅ Yes | ❌ No    | ❌ No                                           | ❌ No                   |
+| _(default)_ (no modifier) | ✅ Yes | ✅ Yes   | ❌ No (unless in same package)                  | ❌ No                   |
+| `protected`               | ✅ Yes | ✅ Yes   | ✅ Yes (even if subclass is in another package) | ❌ No (unless subclass) |
+| `public`                  | ✅ Yes | ✅ Yes   | ✅ Yes                                          | ✅ Yes                  |
+
+deafult is also called package private
+
+protected is simple we have two packages and one of the class should extend the either class to use class level things. the class that is being created should extend the super class or class from another package to use protected.
 # Getter and Setters
 
+getter and setters can be used to access private feilds of a class they are usally public getter and setter, we can also define read only and write oinly access with using getter and setter and we can also validate inside the getter and setter as well 
 
+```java
+public class Student {
+    // Private fields
+    private String name;
+    private int age;
+    private double gpa;
+    private String studentId;
+    private int courseCount;
+    
+    // Constructor
+    public Student(String name, int age, String studentId) {
+        this.name = name;
+        this.age = age;
+        this.studentId = studentId;
+        this.gpa = 0.0;
+        this.courseCount = 0;
+    }
+    
+    // 1. STANDARD GETTER AND SETTER (Full Access)
+    public String getName() {
+        return name;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    // 2. GETTER AND SETTER WITH VALIDATION
+    public int getAge() {
+        return age;
+    }
+    
+    public void setAge(int age) {
+        if (age < 16 || age > 100) {
+            throw new IllegalArgumentException("Age must be between 16 and 100");
+        }
+        this.age = age;
+    }
+    
+    public double getGpa() {
+        return gpa;
+    }
+    
+    public void setGpa(double gpa) {
+        if (gpa < 0.0 || gpa > 4.0) {
+            throw new IllegalArgumentException("GPA must be between 0.0 and 4.0");
+        }
+        this.gpa = gpa;
+    }
+    
+    // 3. READ-ONLY ACCESS (Only Getter, No Setter)
+    public String getStudentId() {
+        return studentId;
+    }
+    // No setter for studentId - it's read-only after construction
+    
+    // 4. WRITE-ONLY ACCESS (Only Setter, No Getter)
+    // This is less common but can be useful for sensitive data
+    private String password;
+    
+    public void setPassword(String password) {
+        if (password == null || password.length() < 6) {
+            throw new IllegalArgumentException("Password must be at least 6 characters");
+        }
+        // In real applications, you'd hash the password
+        this.password = password;
+    }
+    // No getter for password - it's write-only
+    
+    // Method to verify password without exposing it
+    public boolean verifyPassword(String inputPassword) {
+        return this.password != null && this.password.equals(inputPassword);
+    }
+    
+    // 5. COMPUTED/DERIVED GETTER (No corresponding field)
+    public String getStatus() {
+        if (gpa >= 3.5) {
+            return "Honors";
+        } else if (gpa >= 2.0) {
+            return "Good Standing";
+        } else {
+            return "Probation";
+        }
+    }
+    
+    // 6. GETTER WITH ADDITIONAL LOGIC
+    public int getCourseCount() {
+        return courseCount;
+    }
+    
+    public void setCourseCount(int courseCount) {
+        if (courseCount < 0) {
+            throw new IllegalArgumentException("Course count cannot be negative");
+        }
+        this.courseCount = courseCount;
+        
+        // Additional logic when course count changes
+        if (courseCount > 18) {
+            System.out.println("Warning: Student " + name + " is taking a heavy course load!");
+        }
+    }
+    
+    // 7. CONDITIONAL GETTER (Returns different values based on conditions)
+    public String getDisplayName() {
+        if (name == null || name.trim().isEmpty()) {
+            return "Unknown Student";
+        }
+        return name.toUpperCase();
+    }
+    
+    // 8. GETTER WITH LAZY INITIALIZATION
+    private String formattedInfo;
+    
+    public String getFormattedInfo() {
+        if (formattedInfo == null) {
+            formattedInfo = String.format("Student: %s (ID: %s, Age: %d, GPA: %.2f)", 
+                                        name, studentId, age, gpa);
+        }
+        return formattedInfo;
+    }
+    
+    // Method to clear cached formatted info when data changes
+    private void clearFormattedInfo() {
+        formattedInfo = null;
+    }
+    
+    // Override setters to clear cache when data changes
+    public void setNameWithCache(String name) {
+        this.name = name;
+        clearFormattedInfo();
+    }
+    
+    public void setAgeWithCache(int age) {
+        if (age < 16 || age > 100) {
+            throw new IllegalArgumentException("Age must be between 16 and 100");
+        }
+        this.age = age;
+        clearFormattedInfo();
+    }
+}
+
+// Demo class to show usage
+class GetterSetterDemo {
+    public static void main(String[] args) {
+        Student student = new Student("John Doe", 20, "STU001");
+        
+        // 1. Standard getter/setter
+        System.out.println("Name: " + student.getName());
+        student.setName("Jane Smith");
+        System.out.println("Updated Name: " + student.getName());
+        
+        // 2. Validation in setter
+        try {
+            student.setAge(150); // This will throw exception
+        } catch (IllegalArgumentException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+        
+        student.setGpa(3.8);
+        System.out.println("GPA: " + student.getGpa());
+        
+        // 3. Read-only access
+        System.out.println("Student ID (read-only): " + student.getStudentId());
+        // student.setStudentId("NEW001"); // This would cause compile error
+        
+        // 4. Write-only access
+        student.setPassword("mypassword123");
+        System.out.println("Password verified: " + student.verifyPassword("mypassword123"));
+        // System.out.println(student.getPassword()); // This would cause compile error
+        
+        // 5. Computed getter
+        System.out.println("Status: " + student.getStatus());
+        
+        // 6. Setter with additional logic
+        student.setCourseCount(20); // This will show warning
+        
+        // 7. Conditional getter
+        System.out.println("Display Name: " + student.getDisplayName());
+        
+        // 8. Lazy initialization
+        System.out.println("Formatted Info: " + student.getFormattedInfo());
+        System.out.println("Formatted Info (cached): " + student.getFormattedInfo());
+    }
+}
+```
