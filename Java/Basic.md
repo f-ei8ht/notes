@@ -4,6 +4,7 @@
 - first release 1995
 - previously called as `oak`
 - named after java islands because of their coffee beans
+- Every variable has a type, every expression has a type and all types are strictly define more over every assignment should be checked by the compiler by the type compatibility hence java language is considered as strongly typed programming language.
 
 ## Features
 
@@ -706,3 +707,8 @@ hashcode is for the benefit of hash tables.
 ## final keyword
 
 we all know what it does it makes things constant and helps the compiler optimize things during compilation only.
+
+## var arg 
+
+we can use like this int... x from 1.5v of java we can pass more then 0 or 1 value to it internally it is one dimensional array and we can access it using indexes.if we mix var-arg parameter with general parameter then var-arg parameter should be the last parameter
+With in the var-arg method we can take only one var-arg parameter. i.e., if we are trying to more than one var-arg parameter we will get CE methodOne(int... a,int... b) //(invalid)

@@ -42,8 +42,9 @@ Benefits of OOP
 - **Scalability**: OOP supports the creation of scalable and extensible software systems by promoting code reuse and modularity[1](https://www.bing.com/ck/a?!&&p=dd950839cc6aa9156f27fff73bc79e0ae4857d99947a982b408e17b18fca7713JmltdHM9MTc0OTk0NTYwMA&ptn=3&ver=2&hsh=4&fclid=34af192e-7b97-66dd-1e82-0c437a9167bd&u=a1aHR0cHM6Ly93d3cuZWR1Y2F0aXZlLmlvL2Jsb2cvb2JqZWN0LW9yaWVudGVkLXByb2dyYW1taW5n&ntb=1).
 
 ## Static var and instance var
+Instance and static variables can be accessed by multiple Threads simultaneously and hence these are not Thread safe but local variables can be accessed by only one Thread at a time and hence local variables are Thread safe
 
-static variables share the same copy, no matter how many object you create and try to access it.
+static variables share the same copy, no matter how many object you create and try to access it. they have class type or belong to class because thay are created when class is loaded and destroyed at the time of class unloading jvm also gives them default values
 
 ```java
 package StaticVar;
@@ -93,7 +94,8 @@ class Test {
 }
 ```
 
-instance variable will have different copy for every object created.
+instance variable will have different copy for every object created. instance variable goes to heap because it belongs to every object created of a class scope is same as scope of object because they are created when object is created and destroyed when object is destroyed you do not need to initliaze jvm can give default values to them
+they are stoered in method area 
 
 ```java
 package InstanceVar;

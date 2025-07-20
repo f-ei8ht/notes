@@ -3,7 +3,8 @@
 default value for reference is null
 
 #imp
-In **Java**, every variable that is **not explicitly initialized** will be assigned a **default value** by the JVM **only if** it is a **member (instance or static) variable**. Local variables **must be initialized** before use.
+In **Java**, every variable that is **not explicitly initialized** will be assigned a **default value** by the JVM **only if** it is a **member (instance or static) variable**. Local variables **must be initialized** before use and we can only have final for it no other modifier.
+if we are not declaring any modifier explicitly then it means default modifier but this rule is applicable only for static and instance variables but not local variable.
 
 ### ✅ Default Values of Data Types in Java
 
@@ -198,3 +199,81 @@ you can also use  for (; ;) like this no issue
 we can also give like this for(int i = 1, int j = 1; i < 4; i++, j--)
 
 we can use System.exit(0) to normally termiate a program while exit(1) means some error terminated the program 
+
+we can call a main method of a class in a different class using classname.main() we just have to pass a string type array to it.
+
+we can use like this 
+```java
+int String = 10;
+String Integer = 12;
+
+// but not recommended
+```
+
+also the identifier name can be of any length but not recommended more than 15
+
+| Element   | Casing Convention | Example            |
+| --------- | ----------------- | ------------------ |
+| Class     | PascalCase        | `StudentDetails`   |
+| Interface | PascalCase        | `Runnable`, `List` |
+| Enum      | PascalCase        | `DayOfWeek`        |
+| Method    | camelCase         | `getStudentName()` |
+| Variable  | camelCase         | `studentAge`       |
+| Constant  | UPPER_SNAKE_CASE  | `MAX_SIZE`         |
+| Package   | lowercase         | `com.example.app`  |
+
+== Overview
+
+In Java, positive and negative numbers for integral types (`byte`, `short`, `int`, `long`) are represented using the **Two's Complement** binary system.
+
+== Sign Bit
+
+- The **Most Significant Bit (MSB)** (i.e., the leftmost bit):
+  - `0` ⇒ Positive number
+  - `1` ⇒ Negative number
+
+== Two’s Complement System
+
+To represent a negative number:
+1. Take the binary of the positive number.
+2. Invert all bits (1’s complement).
+3. Add `1` (to get 2’s complement).
+
+
+length tells the size of array or you can say rows  and length() number of characters in a string 
+
+```java
+package iftest;  
+  
+public class If {  
+    public static void main(String[] args) {  
+        int[][][] a = new int[2][3][3];  
+        System.out.println(a[0][0].length);  
+    }  
+}
+```
+
+answer is 3 for `a[0][0] and a[0]` but for a it is 2
+
+```mermaid
+graph TD
+    byte --> short
+    short --> int
+    char --> int
+    int --> long
+    long --> float
+    float --> double
+```
+
+
+```mermaid
+graph TD
+    double -->|cast| float
+    float -->|cast| long
+    long -->|cast| int
+    int -->|cast| short
+    short -->|cast| byte
+    int -->|cast| char
+```
+
+
