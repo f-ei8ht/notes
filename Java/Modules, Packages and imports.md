@@ -98,3 +98,34 @@ we have some built in packages in java as well
 | Single static import    | One static member        | `import static java.lang.Math.PI;` | Want to use one constant/method without class name |
 | Static import-on-demand | All static members       | `import static java.lang.Math.*;`  | Using many static methods/constants                |
 if same package then no need to import the class fields behaviours
+
+We dont need to import these two pacakges java.lang and the default package(working dir)
+
+# Java Package Import Behavior
+
+### ✅ Statement:
+When we import a package in Java using a wildcard (e.g., `import java.util.*;`), all **classes and interfaces directly present in that package** become available.  
+However, **classes and interfaces in sub-packages are *not* imported automatically**.
+
+---
+
+### 📌 Example:
+
+```java
+import java.util.*; // Imports ArrayList, HashMap, etc. from java.util
+
+public class Test {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>(); // ✅ Works fine
+        // ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>(); // ❌ Error
+    }
+}
+```
+
+While resolving static members compiler will give the precedence in the following order.
+1. Current class static members 
+2. Explicit static import 
+3. implict static import
+
+
+package it is an encapsulation mechanism to group related classes and interfaces into a single module. The main objectives of packages are: To resolve name confects. To improve modularity of the application. To provide security. There is one universally accepted naming conversion for packages that is to use internet domain name in reverse.

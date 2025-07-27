@@ -1,3 +1,4 @@
+main() method can be declared with the following modifiers. final, synchronized, strictfp.
 
 #note 
 default value for reference is null
@@ -277,3 +278,36 @@ graph TD
 ```
 
 
+we can over load the main method 
+You can overload `main()` like any method, but:
+
+- JVM **only** calls `public static void main(String[] args)` automatically.
+    
+- Other overloads must be called **explicitly**.
+### Inheritance & `main()`
+
+Static methods (including `main()`) follow **method hiding**, not overriding.
+
+`class Parent {     public static void main(String[] args) {         System.out.println("Parent main");     } } class Child extends Parent {}`
+
+✅ Output: If run as `java Child`, but no `main()` in `Child`, then Parent’s main runs.
+
+### Method Hiding (not Overriding)
+
+java
+
+CopyEdit
+
+`class Parent {     public static void main(String[] args) {         System.out.println("Parent main");     } } class Child extends Parent {     public static void main(String[] args) {         System.out.println("Child main");     } }`
+
+✅ Output: `Child main` (when you run `java Child`)
+
+all wrapper classes are also immutable we can also create our own mutable and immutable classes
+
+| Feature        | Immutable                            | Mutable                  |
+| -------------- | ------------------------------------ | ------------------------ |
+| Field access   | Private, final                       | Private                  |
+| Modifiable     | ❌ No setters                         | ✅ Setters available      |
+| Thread-safe    | Yes (by default)                     | No (unless synchronized) |
+| Defensive copy | Required for mutable fields          | Optional                 |
+| Use-case       | Keys in maps, cache, concurrent data | DTOs, data containers    |

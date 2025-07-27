@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/String.md",
+                "file": "Java/Modules, Packages and imports.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "String"
+              "title": "Modules, Packages and imports"
             }
           }
         ]
@@ -195,19 +195,20 @@
   },
   "active": "dc634decbb537865",
   "lastOpenFiles": [
+    "Java/String.md",
+    "Java/Importants.md",
+    "Java/Mem Mngmnt in Java.md",
+    "Java/Object Class.md",
     "Java/Basic.md",
     "Java/Array.md",
     "CS Fundamentals/OOPS.md",
-    "Java/Importants.md",
     "Java/IO.md",
     "[].md",
-    "Java/Object Class.md",
     "DSA/Time and Space Complexity.md",
     "DSA/img/graph.png",
     "DSA/img/graph.jpg",
     "DSA/DSA.md",
     "Java/Recursion.md",
-    "Java/String.md",
     "DSA/Resources.md",
     "Resources.md",
     "System Design",
@@ -223,7 +224,6 @@
     "Design Patterns",
     "Java/Modules, Packages and imports.md",
     "Java/Servlet JDBC JSP.md",
-    "Java/Mem Mngmnt in Java.md",
     "Freihiet",
     "Frontend/What to learn.md",
     "HFT",

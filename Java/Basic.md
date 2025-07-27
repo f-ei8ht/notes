@@ -712,3 +712,6 @@ we all know what it does it makes things constant and helps the compiler optimiz
 
 we can use like this int... x from 1.5v of java we can pass more then 0 or 1 value to it internally it is one dimensional array and we can access it using indexes.if we mix var-arg parameter with general parameter then var-arg parameter should be the last parameter
 With in the var-arg method we can take only one var-arg parameter. i.e., if we are trying to more than one var-arg parameter we will get CE methodOne(int... a,int... b) //(invalid)
+In general var-arg method will get least priority that is if no other method matched then only var-arg method will get the chance this is exactly same as default case inside a switch
+For the var-arg methods we can provide the corresponding type array as argument. Example: class Test { { System.out.println("var-arg method"); } public static void main(String[] args) { methodOne(new int[]{10,20,30});//var-arg method } } we cannot declare both var arg and one dimensional in a class 
+1. methodOne(int... x) we can call this method by passing a group of int values and x will become 1D array. (i.e., int[] x) 2. methodOne(int[]... x) we can call this method by passing a group of 1D int[] and x will become 2D array. ( i.e., int[][] x
