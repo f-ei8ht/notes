@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Modules, Packages and imports.md",
+                "file": "CS Fundamentals/OOPS.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Modules, Packages and imports"
+              "title": "OOPS"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 308.5
   },
   "right": {
     "id": "d3fff2e13fbb476a",
@@ -195,20 +195,28 @@
   },
   "active": "dc634decbb537865",
   "lastOpenFiles": [
-    "Java/String.md",
-    "Java/Importants.md",
-    "Java/Mem Mngmnt in Java.md",
-    "Java/Object Class.md",
-    "Java/Basic.md",
-    "Java/Array.md",
+    "Money Spent/Spent analysis.md",
     "CS Fundamentals/OOPS.md",
+    "Money Spent",
+    "Java/Declaration and Access modifiers.md",
+    "Java/Modules, Packages and imports.md",
+    "Java/Array.md",
+    "Java/The Java Virtual Machine.md",
+    "Java/String.md",
+    "Java/Servlet JDBC JSP.md",
+    "Java/Object Class.md",
+    "Java/Mem Mngmnt in Java.md",
+    "Java/Keywords.md",
     "Java/IO.md",
+    "Java/Importants.md",
+    "Java/Basic.md",
+    "GSoC/SPF (Article).md",
+    "DSA/Recursion.md",
     "[].md",
     "DSA/Time and Space Complexity.md",
     "DSA/img/graph.png",
     "DSA/img/graph.jpg",
     "DSA/DSA.md",
-    "Java/Recursion.md",
     "DSA/Resources.md",
     "Resources.md",
     "System Design",
@@ -217,15 +225,8 @@
     "Basic CS/Basics of CS.md",
     "Java/OOPS.md",
     "WhatToStudy.md",
-    "README.md",
-    "CP/platforms.md",
-    "HFT/Hft.md",
-    "Design Patterns/Singleton.md",
     "Design Patterns",
-    "Java/Modules, Packages and imports.md",
-    "Java/Servlet JDBC JSP.md",
     "Freihiet",
-    "Frontend/What to learn.md",
     "HFT",
     "Roadmap",
     "Java/HFT",
@@ -233,7 +234,6 @@
     "Backend",
     "OOPS",
     "Java/img/Memory.png",
-    "Solana",
     "Pasted image 20250506174927.png"
   ]
 }

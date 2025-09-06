@@ -517,27 +517,17 @@ normal code block will be executed every time an instance is made.
 
 
 # ENCAPSULATION
-# Access Modifiers
 
-private, public, default, protected
+Binding of data and corresponding methods into a single unit is called Encapsulation . If any java class follows data hiding and abstraction such type of class is said to be encapsulated class. 
 
-public you can access any where across packages
-default if we dont specify any thing to a class or the class members then it is default, it is accessible only inside a package (no modifier/ package-private )
-private is acccessible only inside the class, but we can access private in a different class indirectly by creating the class object
+Encapsulation = data hiding + access control or may be abstraction 
 
-| Access Modifier           | Class | Package | Subclass                                       | Other Packages         |
-| ------------------------- | ----- | ------- | ---------------------------------------------- | ---------------------- |
-| `private`                 | ✅ Yes | ❌ No    | ❌ No                                           | ❌ No                   |
-| _(default)_ (no modifier) | ✅ Yes | ✅ Yes   | ❌ No (unless in same package)                  | ❌ No                   |
-| `protected`               | ✅ Yes | ✅ Yes   | ✅ Yes (even if subclass is in another package) | ❌ No (unless subclass) |
-| `public`                  | ✅ Yes | ✅ Yes   | ✅ Yes                                          | ✅ Yes                  |
+# DATA HIDING
 
-deafult is also called package private
-
-protected is simple we have two packages and one of the class should extend the either class to use class level things. the class that is being created should extend the super class or class from another package to use protected.
+we use private keyword for data hiding, recommended
 # Getter and Setters
 
-getter and setters can be used to access private feilds of a class they are usally public getter and setter, we can also define read only and write oinly access with using getter and setter and we can also validate inside the getter and setter as well 
+getter and setters can be used to access private fields of a class they are usually public getter and setter, we can also define read only and write only access with using getter and setter and we can also validate inside the getter and setter as well 
 
 ```java
 public class Student {

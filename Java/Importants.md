@@ -311,3 +311,4 @@ all wrapper classes are also immutable we can also create our own mutable and im
 | Thread-safe    | Yes (by default)                     | No (unless synchronized) |
 | Defensive copy | Required for mutable fields          | Optional                 |
 | Use-case       | Keys in maps, cache, concurrent data | DTOs, data containers    |
+Note: Every method present inside a final class is always final by default whether we are declaring or not. But every variable present inside a final class need not be final.
